@@ -275,4 +275,10 @@
       <option name="XML" value="true" />
     </context>
   </template>
-</templateSet>
+  <template name="odoo_comment_xml" value="&lt;!--         --&gt;&#10;">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+
+ /templateSet>
