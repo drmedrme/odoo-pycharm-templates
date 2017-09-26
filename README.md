@@ -16,3 +16,6 @@ and save the XML file there. Enjoy your time developing great Odoo Modules :)
 
 ### User Guide
 Here is a little video that's show how you can use this template : https://youtu.be/vytzDo33qdM
+
+## Look at Forms to Put In ##
+These are for additonal templates to add that may prove useful.
