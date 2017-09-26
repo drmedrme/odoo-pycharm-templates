@@ -1,0 +1,30 @@
+<!-- This is the basics for a tempalte         -->
+
+
+<template id="NAME" >
+      <t t-call="report.html_container" >
+        <t t-foreach ="docs" t-as ="o">
+          <t t-call ="report.external_layout">
+            <div class="page" >
+              <div class="oe_structure" />
+
+            </div>
+          </t>
+        </t>
+      </t>
+</template>
+
+
+<!-- QWeb Reports -->
+<!-- NAME & FILE_NAME should be the same -->
+
+<!-- This is already in template area.         -->
+
+        <report
+            id="UNIQUE_REPORT_ID"
+            model="MODEL_WHERE_THE_REPORT_WILL_BE_PRINTED"
+            report_type="qweb-pdf"
+            string="LABEL"
+            name="NAME"
+            file="FILE_NAME"
+        />
